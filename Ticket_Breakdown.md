@@ -34,8 +34,8 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
    Acceptance Criteria:
      - The function should return the Facility's custom identifier for each Agent in addition to the rest of the Shift data.
      - The function should continue to function correctly for Facilities that have not yet set custom identifiers for their Agents.
-        -  Time Estimate: 1.5 hour
-     Implementation Details:
+   Time Estimate: 1.5 hour
+   Implementation Details:
         - The getShiftsByFacility function can be updated to include a JOIN statement that retrieves the custom identifier from the Agents table.
         - It may necessitate some adjustment to the existing codebase to ensure that the new data is correctly utilized in all relevant queries.
 
